@@ -1,0 +1,64 @@
+* {
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+}
+
+.home-header {
+  background-position: left;
+}
+.video-action-btn .icon {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.main-title .sm-title,
+.main-title .sub-title,
+.contact-info div,
+.footer-title div,
+.header-details,
+.footer-box div,
+.footer-box p,
+.blog-widget-details div,
+.appointment-details div,
+.form-services,
+.form-label {
+  text-align: right;
+}
+
+.arrow-action {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.icon-right-arrow,
+.icon-left-arrow {
+  transform: rotateZ(180deg);
+  display: inline-block;
+}
+.c-text img {
+  margin-left: 15px;
+  margin-right: 0;
+}
+.footer-info .icon {
+  margin-right: 0;
+  margin-left: 6px;
+}
+.blog-widget .title:after {
+  left: auto;
+  right: 0;
+}
+.choose-service,
+.choose-service-label .icon {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.nav-links ul li {
+  margin-right: 25px;
+  margin-left: 0;
+}
+.nav-links ul li.nav-btn {
+  margin-right: 50px;
+  margin-left: 0;
+}
+.blog-widget .title {
+  font-size: 24px;
+  font-weight: 600;
+}
