@@ -1,2 +1,3 @@
 import { Landing } from "./Landing";
-export { Landing };
+import { PricingView } from "./Pricing";
+export { Landing, PricingView };

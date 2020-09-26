@@ -1,0 +1,45 @@
+.pricing-container {
+  padding: 100px 0;
+}
+.pricing-card {
+  border-radius: 28px;
+  padding: 30px 40px;
+  background: #5b8872;
+  height: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.pricing-header,
+.pricing-footer {
+  width: 100%;
+}
+.pricing-header .sm-title {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.pricing-card .bg-title {
+  color: #fff;
+  line-height: 1.1;
+  font-weight: 500;
+}
+.pricing-card .bg-title small {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 400;
+}
+.pricing-card .md-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.pricing-footer .bg-title {
+  line-height: 1;
+}
+.discount-title {
+  font-size: 20px;
+  font-weight: 400;
+}

@@ -1,0 +1,56 @@
+.pricing-page-header,
+.pricing-list {
+  padding: 100px 0;
+  background: #fffbfa;
+}
+.pricing-widget-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pricing-widget-header > div {
+  width: 48%;
+}
+.pw-view img {
+  width: 50%;
+}
+.md-title {
+  color: #28294b;
+  font-size: 20px;
+  font-weight: 500;
+}
+.list-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.list-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 48%;
+  margin-bottom: 30px;
+}
+.list-card-view {
+  width: 150px;
+}
+.list-card-view img {
+  width: 100%;
+}
+.list-card-content {
+  width: calc(100% - 200px);
+}
+.list-card-content li {
+  margin-bottom: 10px;
+}
+.list-card-content li span {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background: #2ec7bc;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateY(25%);
+  margin-right: 10px;
+}

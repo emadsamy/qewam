@@ -1,0 +1,35 @@
+.contact-container {
+  padding: 100px 0;
+}
+.contact-view img {
+  width: 66%;
+}
+.c-row {
+  display: flex;
+  margin-bottom: 5px;
+}
+.c-row .sm-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #28294b;
+  margin-right: 5px;
+}
+.contact-container .title {
+  letter-spacing: 3px;
+  font-size: 15px;
+  color: #28294b;
+}
+.contact-container input {
+  width: calc(100% - 130px);
+}
+.contact-container .btn {
+  background: #2f318d;
+  border-radius: 8px;
+  color: #fff;
+}
+.contact-links a {
+  display: inline-block;
+  color: #28294b;
+  font-size: 15px;
+  margin-right: 20px;
+}

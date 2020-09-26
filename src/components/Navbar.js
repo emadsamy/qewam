@@ -1,42 +1,42 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav>
-      <div class="container">
-        <div class="nav-content">
-          <div class="nav-logo">
+      <div className="container">
+        <div className="nav-content">
+          <div className="nav-logo">
             <Link to="/">
               <img src={require("../assets/img/logo.png")} alt="Logo" />
             </Link>
           </div>
-          <div id="menuBar" class="menu-bar">
-            <div class="child-bar-1"></div>
-            <div class="child-bar-2"></div>
-            <div class="child-bar-3"></div>
+          <div id="menuBar" className="menu-bar">
+            <div className="child-bar-1"></div>
+            <div className="child-bar-2"></div>
+            <div className="child-bar-3"></div>
           </div>
-          <div id="navLinks" class="nav-links">
-            <ul class="list-unstyled">
-              <li class="nav-link">
-                <a href="pricing.html">Pricing</a>
+          <div id="navLinks" className="nav-links">
+            <ul className="list-unstyled">
+              <li className="nav-link">
+                <NavLink to="/pricing">Pricing</NavLink>
               </li>
-              <li class="nav-link">
-                <a href="about.html">About Us</a>
+              <li className="nav-link">
+                <NavLink to="/about">About Us</NavLink>
               </li>
-              <li class="nav-link">
-                <a href="blog.html">Blog</a>
+              <li className="nav-link">
+                <NavLink to="/blog">Blog</NavLink>
               </li>
-              <li class="nav-btn">
-                <a class="btn main-btn" href="login.html">
+              <li className="nav-btn">
+                <NavLink className="btn main-btn" to="/contact">
                   Contact Us
-                </a>
+                </NavLink>
               </li>
-              <li class="nav-btn">
-                <a class="btn main-btn-gradient" href="list">
+              <li className="nav-btn">
+                <NavLink className="btn main-btn-gradient" to="/">
                   Get Started
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
