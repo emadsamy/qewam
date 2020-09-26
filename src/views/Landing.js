@@ -1,52 +1,10 @@
 import React, { Component } from "react";
+import { Offers, Steps } from "../components";
 
 class Landing extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav>
-          <div class="container">
-            <div class="nav-content">
-              <div class="nav-logo">
-                <a href="index.html">
-                  <img src={require("../assets/img/logo.png")} alt="Logo" />
-                </a>
-              </div>
-              <div id="menuBar" class="menu-bar">
-                <div class="child-bar-1"></div>
-                <div class="child-bar-2"></div>
-                <div class="child-bar-3"></div>
-              </div>
-              <div id="navLinks" class="nav-links">
-                <ul class="list-unstyled">
-                  <li class="nav-link">
-                    <a href="pricing.html">Pricing</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="about.html">About Us</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="blog.html">Blog</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="contact.html">Contact Us</a>
-                  </li>
-                  <li class="nav-btn">
-                    <a class="btn main-btn" href="login.html">
-                      Login
-                    </a>
-                  </li>
-                  <li class="nav-btn">
-                    <a class="btn main-btn-gradient" href="javascript:void(0)">
-                      Get Started
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-
         <div class="content">
           <div class="header">
             <div class="container">
@@ -85,35 +43,35 @@ class Landing extends Component {
                       <div class="lv"></div>
                     </div>
                     <div class="scoialmedia mb-4">
-                      <a href="#">
+                      <a href="link">
                         <img
                           src={require("../assets/img/socialmedia/instagram.svg")}
                           alt=""
                           class="img-fluid"
                         />
                       </a>
-                      <a href="#">
+                      <a href="link">
                         <img
                           src={require("../assets/img/socialmedia/linkedin.svg")}
                           alt=""
                           class="img-fluid"
                         />
                       </a>
-                      <a href="#">
+                      <a href="link">
                         <img
                           src={require("../assets/img/socialmedia/twitter.svg")}
                           alt=""
                           class="img-fluid"
                         />
                       </a>
-                      <a href="#">
+                      <a href="link">
                         <img
                           src={require("../assets/img/socialmedia/facebook.svg")}
                           alt=""
                           class="img-fluid"
                         />
                       </a>
-                      <a href="#">
+                      <a href="link">
                         <img
                           src={require("../assets/img/socialmedia/youtube.svg")}
                           alt=""
@@ -161,7 +119,7 @@ class Landing extends Component {
                       product, branding strategy and establishing their online
                       presence.
                     </div>
-                    <a href="#" class="simple-btn">
+                    <a href="link" class="simple-btn">
                       Read More
                     </a>
                   </div>
@@ -170,187 +128,8 @@ class Landing extends Component {
             </div>
           </div>
 
-          <div class="benefits-container">
-            <div class="container">
-              <div class="benefit-card">
-                <div class="benefit-details">
-                  <div class="sub-title">We Offer</div>
-                  <div class="bg-title mb-4">
-                    Business
-                    <br />
-                    Development
-                  </div>
-                  <div class="text mb-4">
-                    Qewam Builder is an online platform for early-stage
-                    startups; it aims to provide support and guidance to
-                    non-tech entrepreneurs at the very early stage of building a
-                    business through developing their minimal viable product,
-                  </div>
-                  <button class="btn main-btn-gradient">Get Started</button>
-                </div>
-                <div class="benefit-view text-center">
-                  <img
-                    src={require("../assets/img/benefits/benefit-4.svg")}
-                    alt=""
-                    class="img-fluid benefit-view"
-                  />
-                </div>
-              </div>
-
-              <div class="benefit-card">
-                <div class="benefit-details">
-                  <div class="sub-title">We Offer</div>
-                  <div class="bg-title mb-4">
-                    Branding <br />
-                    solution
-                  </div>
-                  <div class="text mb-4">
-                    Qewam Builder is an online platform for early-stage
-                    startups; it aims to provide support and guidance to
-                    non-tech entrepreneurs at the very early stage of building a
-                    business through developing their minimal viable product,
-                  </div>
-                  <button class="btn main-btn-gradient">Get Started</button>
-                </div>
-                <div class="benefit-view text-center">
-                  <img
-                    src={require("../assets/img/benefits/benefit-3.svg")}
-                    alt=""
-                    class="img-fluid benefit-view"
-                  />
-                </div>
-              </div>
-
-              <div class="benefit-card">
-                <div class="benefit-details">
-                  <div class="sub-title">We Offer</div>
-                  <div class="bg-title mb-4">
-                    MVP
-                    <br />
-                    Development
-                  </div>
-                  <div class="text mb-4">
-                    Qewam Builder is an online platform for early-stage
-                    startups; it aims to provide support and guidance to
-                    non-tech entrepreneurs at the very early stage of building a
-                    business through developing their minimal viable product,
-                  </div>
-                  <button class="btn main-btn-gradient">Get Started</button>
-                </div>
-                <div class="benefit-view text-center">
-                  <img
-                    src={require("../assets/img/benefits/benefit-2.svg")}
-                    alt=""
-                    class="img-fluid benefit-view"
-                  />
-                </div>
-              </div>
-
-              <div class="benefit-card">
-                <div class="benefit-details">
-                  <div class="sub-title">We Offer</div>
-                  <div class="bg-title mb-4">
-                    Online
-                    <br />
-                    Presence
-                  </div>
-                  <div class="text mb-4">
-                    Qewam Builder is an online platform for early-stage
-                    startups; it aims to provide support and guidance to
-                    non-tech entrepreneurs at the very early stage of building a
-                    business through developing their minimal viable product,
-                  </div>
-                  <button class="btn main-btn-gradient">Get Started</button>
-                </div>
-                <div class="benefit-view text-center">
-                  <img
-                    src={require("../assets/img/benefits/benefit-1.svg")}
-                    alt=""
-                    class="img-fluid benefit-view"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="how-works-container">
-            <div class="container text-center">
-              <div class="bg-title mb-2">How its Work!</div>
-              <div class="text">
-                modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                voluptatem.
-              </div>
-              <div class="steps pt-5">
-                <div class="step-card pt-1">
-                  <button class="btn main-btn-gradient mb-4">
-                    Get Started
-                  </button>
-                  <div class="text-bold">
-                    Submit Your <br />
-                    Startup Idea
-                  </div>
-                </div>
-                <div class="step-card">
-                  <div class="step-counter mb-3">02</div>
-                  <div class="text-bold mb-3">
-                    Discovery
-                    <br />
-                    Meeting
-                  </div>
-                  <div class="text">
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-
-                <div class="step-card">
-                  <div class="step-counter mb-3">03</div>
-                  <div class="text-bold mb-3">
-                    Brand &amp; Visual <br />
-                    Design Creation
-                  </div>
-                  <div class="text">
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-
-                <div class="step-card">
-                  <div class="step-counter mb-3">04</div>
-                  <div class="text-bold mb-3">
-                    MVP
-                    <br />
-                    Development
-                  </div>
-                  <div class="text">
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-
-                <div class="step-card">
-                  <div class="step-counter mb-3">05</div>
-                  <div class="text-bold mb-3">
-                    Establishing
-                    <br />
-                    Online Presence
-                  </div>
-                  <div class="text">
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-
-                <div class="step-card">
-                  <div class="step-counter mb-3">06</div>
-                  <div class="text-bold mb-3">
-                    Product Delivery
-                    <br />
-                    &amp; Launch
-                  </div>
-                  <div class="text">
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Offers />
+          <Steps />
 
           <div class="studies-container">
             <div class="container">
@@ -550,13 +329,13 @@ class Landing extends Component {
                       <button class="btn">Subscribe</button>
                     </div>
                     <div class="contact-links mb-5">
-                      <a href="#" class="c-link">
+                      <a href="link" class="c-link">
                         Terms and conditions
                       </a>
-                      <a href="#" class="c-link">
+                      <a href="link" class="c-link">
                         Blog
                       </a>
-                      <a href="#" class="c-link">
+                      <a href="link" class="c-link">
                         About Us
                       </a>
                     </div>
