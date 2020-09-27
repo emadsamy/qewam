@@ -476,6 +476,15 @@ small {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .wrapper {
+    padding-top: 71.51px;
+  }
+  .simple-btn {
+    display: none;
+  }
+  .bg-title {
+    font-size: 33px;
+  }
 }
 
 /* Small devices (landscape phones, 767.98px Max width) */

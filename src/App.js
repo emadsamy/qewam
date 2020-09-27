@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import { Landing, PricingView } from "./views";
+import { Landing, PricingView, About } from "./views";
 import { Navbar, NotFound, Contact } from "./components";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -16,6 +16,9 @@ class App extends Component {
           </Route>
           <Route path="/pricing">
             <PricingView />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
           <Route component={NotFound}></Route>
         </Switch>

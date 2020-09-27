@@ -8,7 +8,6 @@ class Landing extends Component {
         <div className="content">
           <div className="header">
             <div className="container">
-              {/* <Toolbar /> */}
               <div className="header-items mb-3">
                 <div className="header-details">
                   <div className="bg-title mb-4">
@@ -36,8 +35,6 @@ class Landing extends Component {
                     className="img-fluid"
                   />
                 </div>
-
-                {/* Toolbar */}
               </div>
 
               <div className="header-leaders">
