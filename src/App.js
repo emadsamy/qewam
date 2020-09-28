@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { Landing, ViewPricing, About, ViewBlog } from "./views";
+import { Landing, ViewPricing, About, ViewBlog, BlogPage } from "./views";
 import { Navbar, NotFound, Contact, Toolbar } from "./components";
 import ScrollToTop from "./components/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -20,6 +20,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/blog">
+          <BlogPage />
         </Route>
         <Route path="/blog/:id">
           <ViewBlog />

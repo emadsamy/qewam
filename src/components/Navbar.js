@@ -55,7 +55,7 @@ const Navbar = () => {
                     className="btn main-btn"
                     to="/contact"
                   >
-                    Contact Us
+                    Contact
                   </NavLink>
                 </li>
                 <li className="nav-btn">

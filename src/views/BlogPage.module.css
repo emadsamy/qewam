@@ -1,0 +1,33 @@
+.container {
+  padding: 100px 0;
+  background: #fffbfa;
+}
+.swiperSlide {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.details {
+  background: #fff;
+  padding: 33px;
+}
+.swiperSlide > div {
+  width: 50%;
+}
+div.title {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  padding-top: 30px;
+}
+div.title:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  width: 70px;
+  height: 11px;
+  background: transparent linear-gradient(90deg, #21eadb 0%, #29ec9e 100%) 0% 0%
+    no-repeat padding-box;
+}
