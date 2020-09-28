@@ -5,6 +5,7 @@ import { Steps } from "./Steps";
 import { Toolbar } from "./Toolbar";
 import { Contact } from "./Contact";
 import { Pricing } from "./Pricing";
-import { Backdrop } from "./Backdrop";
+import { Blog } from "./Blog";
+// import { Backdrop } from "./Backdrop";
 
-export { Navbar, NotFound, Offers, Steps, Toolbar, Contact, Pricing, Backdrop };
+export { Navbar, NotFound, Offers, Steps, Toolbar, Contact, Pricing, Blog };

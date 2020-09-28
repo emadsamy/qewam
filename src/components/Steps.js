@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Offers.css";
+import "./Steps.css";
 
 const Steps = () => {
   return (

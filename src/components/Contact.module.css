@@ -1,33 +1,41 @@
-.contact-container {
+.contactContainer {
   padding: 100px 0;
 }
-.contact-view img {
+.contactView img {
   width: 66%;
 }
-.c-row {
+.cRow {
   display: flex;
   margin-bottom: 5px;
 }
-.c-row .sm-title {
+.cRow .smTitle {
   font-weight: 600;
   font-size: 14px;
   color: #28294b;
   margin-right: 5px;
 }
-.contact-container .title {
+.contactContainer .title {
   letter-spacing: 3px;
   font-size: 15px;
   color: #28294b;
 }
-.contact-container input {
+.contactContainer input {
   width: calc(100% - 130px);
 }
-.contact-container .btn {
+.contactContainer .btn {
   background: #2f318d;
   border-radius: 8px;
   color: #fff;
 }
-.contact-links a {
+div button.btn:hover {
+  background: #1f2182;
+  color: #fff;
+}
+div button.btn:active {
+  background: #0f116c;
+  color: #fff;
+}
+.contactLinks a {
   display: inline-block;
   color: #28294b;
   font-size: 15px;
@@ -36,13 +44,16 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .contact-view {
+}
+
+@media (max-width: 991.98px) {
+  .contactView {
     display: none;
   }
-  .contact-container {
-    padding: 60px 0;
+  .contactContainer {
+    padding: 60px 0 30px;
   }
-  div.contact-links {
+  div.contactLinks {
     margin-bottom: 0 !important;
   }
 }

@@ -1,31 +1,35 @@
-import React, { Component } from "react";
+import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { Landing, PricingView, About } from "./views";
-import { Navbar, NotFound, Contact } from "./components";
+import { Landing, ViewPricing, About, ViewBlog } from "./views";
+import { Navbar, NotFound, Contact, Toolbar } from "./components";
+import ScrollToTop from "./components/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="wrapper">
-        <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Landing />
-          </Route>
-          <Route path="/pricing">
-            <PricingView />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route component={NotFound}></Route>
-        </Switch>
-        <Contact />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="wrapper">
+      <Navbar />
+      <ScrollToTop />
+      <Switch>
+        <Route exact path="/">
+          <Landing />
+        </Route>
+        <Route path="/pricing">
+          <ViewPricing />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/blog/:id">
+          <ViewBlog />
+        </Route>
+        <Route component={NotFound}></Route>
+      </Switch>
+      <Contact />
+      <Toolbar />
+    </div>
+  );
 }
 
 export default App;

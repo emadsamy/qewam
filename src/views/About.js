@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./About.css";
+import classes from "./About.module.css";
 
 class About extends Component {
   state = {
@@ -22,17 +22,17 @@ class About extends Component {
   };
   render() {
     return (
-      <div className="about-container">
+      <div className={classes.aboutContainer}>
         <div className="container">
           <div className="about-cards">
             {this.state.rows.map((item) => {
               return (
-                <div className="about-card">
-                  <div className="about-card-details">
+                <div className={classes.card}>
+                  <div className={classes.cardDetails}>
                     <div className="bg-title mb-4">{item.title}</div>
                     <div className="text">{item.body}</div>
                   </div>
-                  <div className="about-card-view text-center">
+                  <div className={`${classes.cardView} text-center`}>
                     <img src={item.image} alt="" />
                   </div>
                 </div>

@@ -54,3 +54,66 @@
   transform: translateY(25%);
   margin-right: 10px;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .list-card {
+    margin-bottom: 50px;
+  }
+  .list-card,
+  .list-card-view,
+  .list-card-content {
+    width: 100%;
+  }
+  .list-card-view img {
+    width: 52%;
+  }
+  .pricing-widget-header > div {
+    width: 100%;
+  }
+  .pw-view {
+    display: none;
+  }
+  .pricing-page-header,
+  .pricing-list {
+    padding: 60px 0;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .pw-view img {
+    width: 70%;
+  }
+  .list-card-view {
+    width: 77%;
+  }
+  .list-card-content {
+    width: 100%;
+  }
+  .pricing-page-header,
+  .pricing-list {
+    padding: 60px 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .pw-view img {
+    width: 70%;
+  }
+  .list-card-view {
+    width: 65%;
+  }
+  .list-card-content {
+    width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

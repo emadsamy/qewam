@@ -1,53 +1,54 @@
-.offers-container {
+.aboutContainer {
   background: #fffbfa;
   padding: 100px 0;
 }
-.offer-card {
+.card {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
-.offer-card:nth-of-type(even) {
-  flex-direction: row-reverse;
-}
-.offer-card:last-of-type {
+.card:last-of-type {
   margin-bottom: 0;
 }
-.offer-card > div {
+.card:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+.card > div {
   width: 48%;
 }
-.offer-view {
-  width: 50%;
+.cardView img {
+  width: 45%;
 }
-.sub-title {
-  font-size: 23px;
-  color: #28294b;
-  font-weight: 400;
-  line-height: 1;
+.card:last-of-type {
+  margin-bottom: 0;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .offer-card > div {
+  .card {
+    flex-direction: column-reverse;
+  }
+  .card > div {
     width: 100%;
   }
-  .offer-card {
-    flex-direction: column-reverse;
+  .cardView {
+    width: 50%;
+    margin-bottom: 30px;
   }
-  .offer-card:nth-of-type(even) {
-    flex-direction: column-reverse;
-  }
-  .offer-details {
+  .cardDetails {
     text-align: center;
   }
-  .offer-view {
-    margin-bottom: 20px;
+  .card:nth-of-type(even) {
+    flex-direction: column-reverse;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  div.cardView img {
+    width: 80%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

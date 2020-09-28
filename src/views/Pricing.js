@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Pricing } from "../components";
 import "./Pricing.css";
 
-class PricingView extends Component {
+class ViewPricing extends Component {
   render() {
     return (
       <div className="content">
@@ -147,4 +147,4 @@ class PricingView extends Component {
   }
 }
 
-export { PricingView };
+export { ViewPricing };

@@ -2,7 +2,9 @@
   width: 23px;
   margin-left: auto;
   position: fixed;
-  right: 0;
+  right: 80px;
+  z-index: 20;
+  top: 130px;
 }
 .header-toolbar .text {
   writing-mode: vertical-rl;
@@ -30,4 +32,36 @@
   display: block;
   width: 23px;
   margin-bottom: 7px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .header-toolbar {
+    display: none;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-toolbar {
+    right: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header-toolbar {
+    right: 20px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }

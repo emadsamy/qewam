@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Offers, Steps, Pricing } from "../components";
+import { Offers, Steps, Pricing, Blog } from "../components";
 
 class Landing extends Component {
   render() {
@@ -48,7 +48,7 @@ class Landing extends Component {
           <div className="weare-container">
             <div className="container">
               <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-sm-6">
                   <div className="weare-box text-center">
                     <img
                       src={require("../assets/img/weare.svg")}
@@ -57,7 +57,7 @@ class Landing extends Component {
                     />
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-sm-6">
                   <div className="weare-box">
                     <div className="bg-title mb-4">
                       We are
@@ -91,7 +91,7 @@ class Landing extends Component {
                 modi tempora incidunt ut labore et dolore .
               </div>
               <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-sm-6">
                   <div className="study-card">
                     <img
                       src={require("../assets/img/image.jpg")}
@@ -107,7 +107,7 @@ class Landing extends Component {
                   </div>
                 </div>
 
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-sm-6">
                   <div className="study-card">
                     <img
                       src={require("../assets/img/image.jpg")}
@@ -123,7 +123,7 @@ class Landing extends Component {
                   </div>
                 </div>
 
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-sm-6">
                   <div className="study-card">
                     <img
                       src={require("../assets/img/image.jpg")}
@@ -144,58 +144,7 @@ class Landing extends Component {
 
           <Pricing />
 
-          <div className="blogs-container">
-            <div className="container">
-              <div className="bg-title mb-2">Blogs</div>
-              <div className="text d-flex justify-content-between mb-4">
-                Read the latest stories from our world.
-                <a className="simple-btn">Read More</a>
-              </div>
-              <div className="row">
-                <div className="col-lg-4">
-                  <div className="blog-card">
-                    <img
-                      src={require("../assets/img/image.jpg")}
-                      alt=""
-                      className="img-fluid"
-                    />
-                    <div className="title">
-                      A Saudi-based startup capitalizes on gig-economy
-                      opportunities
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4">
-                  <div className="blog-card">
-                    <img
-                      src={require("../assets/img/image.jpg")}
-                      alt=""
-                      className="img-fluid"
-                    />
-                    <div className="title">
-                      Save your money and energy by hiring a professional
-                      virtual assistant
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4">
-                  <div className="blog-card">
-                    <img
-                      src={require("../assets/img/image.jpg")}
-                      alt=""
-                      className="img-fluid"
-                    />
-                    <div className="title">
-                      Thriving Saudi startup scene to produce top-30 companies,
-                      WEF hears
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Blog title="Blogs" />
         </div>
       </React.Fragment>
     );
