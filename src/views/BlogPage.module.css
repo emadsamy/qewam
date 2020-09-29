@@ -31,3 +31,14 @@ div.title:after {
   background: transparent linear-gradient(90deg, #21eadb 0%, #29ec9e 100%) 0% 0%
     no-repeat padding-box;
 }
+.arrowsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.arrowContainerDiv {
+  text-transform: uppercase;
+  color: #2f318d70;
+  padding: 0 20px;
+}
